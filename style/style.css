@@ -58,3 +58,55 @@ a{
     display: flex;
     text-decoration: none;
 }
+
+@media (min-width: 720px){
+
+    h2{
+        background-color: aqua;
+    }
+    
+    .html,.css,.JavaScript{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .imagenes{
+        width: 250px;
+        height: 250px;
+        padding: 40px;
+    }
+    .imagen-html,.imagen-css,.imagen-javascript{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #estilo:hover{
+        transition: all 1s;
+        width: 300px;
+        height: 300px;
+    }
+
+    input{
+        margin: 20px;
+    }
+    
+    .prueba-javascript{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .logos{
+        width: 120px;
+        height: 120px;
+    }
+    a{
+        display: flex;
+        text-decoration: none;
+    }
+}
