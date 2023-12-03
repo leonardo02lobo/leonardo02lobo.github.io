@@ -16,6 +16,31 @@ h2{
 }
 
 .html,.css,.JavaScript{
+    display: block;
+    justify-content: center;
+}
+
+.imagenes{
+    width: 30vw;
+    height: 25vh;
+    padding: 30px;
+}
+.imagen-html,.imagen-css,.imagen-javascript{
+    display: flex;
+    justify-content: center;
+}
+
+#estilo:hover{
+    transition: all 1s;
+    width: 43vw;
+    height: 30vh;
+}
+
+input{
+    margin: 20px;
+}
+
+.prueba-javascript{
     display: flex;
     justify-content: center;
 }
